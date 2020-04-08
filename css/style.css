@@ -22,16 +22,54 @@ strong, b { font-weight: bold; }
 em, i { font-style: italic; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  margin: 0.5em 0;
+  font-weight: bold;
+  margin: 1em 0;
 }
 
 h1 { font-size: 2em; text-align: center; }
-h2 { font-size: 1.4em; }
+h2 { font-size: 1.4em; margin: 2em 0 1em 0; }
 h3 { font-size: 1.1em; }
-h4 { font-size: 1em; }
+h4 { font-size: 1em; font-weight: normal; }
+h5 { font-size: 1em; font-weight: normal; text-decoration: underline; }
 
 p { text-align: justify; }
+
+a {
+  color: #0080ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #8000ff;
+  text-decoration: none;
+}
+a:active, a:focus, a:target {
+  color: #ff8000;
+  text-decoration: none;
+}
+
+figure {
+  display: block;
+  margin: 1em;
+  padding: 0;
+  text-align: center;
+}
+figure img {
+  margin: 1em;
+  width: 80%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+}
+table th {
+  font-weight: bold;
+  text-align: center;
+}
+table, th, td { border: 1px solid #555; }
+th, td { padding: 0.2em; }
 
 article {
   max-width: 80ch;
@@ -91,5 +129,5 @@ nav a.nav-select, nav a:hover, nav a:active, nav a:focus {
 
   nav { display: none; }
 
-  a { text-decoration: underline; }
+  a[href] { text-decoration: underline; }
 }
