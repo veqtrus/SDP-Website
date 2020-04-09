@@ -58,6 +58,10 @@ figure img {
   width: 80%;
   height: auto;
 }
+figure figcaption {
+  display: block;
+  text-align: center;
+}
 
 table {
   width: 100%;
