@@ -15,7 +15,7 @@ html, body {
   color: #111;
   font-size: 14pt;
   text-align: left;
-  word-break: break-word;
+  /*word-break: break-word;*/
 }
 
 strong, b { font-weight: bold; }
