@@ -27,6 +27,12 @@
       #landing-overlay { font-size: 0.6em; }
     }
   </style>
+  <script>
+    var interesting_video = '<p style="text-align: center;"><iframe style="width: 64ch; height: 36ch;" src="https://www.youtube-nocookie.com/embed/AOTUFQN377U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>';
+    function easter_egg() {
+	    document.getElementById("easter-egg").innerHTML = interesting_video;
+    }
+  </script>
 </head>
 <body>
   <div style="background-color: black; width: 100%; height: 100vh;">
@@ -50,10 +56,7 @@
   </nav>
   <article>
     <p style="text-align: center;">
-      <img src="./img/logo.png" alt="SousChef" style="width: 50%; height: auto;" />
-    </p>
-    <p style="text-align: center;">
-      <iframe style="width: 64ch; height: 36ch;" src="https://www.youtube-nocookie.com/embed/_hh-to0CBcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style="width: 64ch; height: 36ch;" src="https://www.youtube-nocookie.com/embed/CkZr7i_o-Sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
     <p>Not convinced yet? Let&rsquo;s look at SousChef&rsquo;s unique features.</p>
     <h2>Customise your cuts</h2>
@@ -77,6 +80,16 @@
       <img src="./img/souschef-open.jpg" alt="SousChef with the lid open" />
       <figcaption>Final product model</figcaption>
     </figure>
-  </article>
+    <h2>Our value proposition</h2>
+    <p style="text-align: center;">
+      <iframe style="width: 64ch; height: 36ch;" src="https://www.youtube-nocookie.com/embed/_hh-to0CBcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+    <p style="text-align: center;">
+      <img src="./img/logo.png" alt="SousChef" style="width: 50%; height: auto;" />
+    </p>
+    <div id="easter-egg">
+    <img src="./img/egg.png" alt="Easter Egg" onclick="easter_egg()" style="cursor: pointer; width: 20%; height: auto;"/>
+  </div>    
+</article>
 </body>
 </html> 
