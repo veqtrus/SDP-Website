@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Budget - SousChef</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <style type="text/css">
+    td:nth-of-type(2), td:nth-of-type(3) { text-align: right; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="./">SousChef</a>
+    <a href="./system.html">System</a>
+    <a href="./how-it-works.html">How it works</a>
+    <a href="./evaluation.html">Evaluation</a>
+    <a class="nav-select" href="./budget.html">Budget</a>
+    <a href="./team.html">Team</a>
+  </nav>
+  <article>
+    <h1>Budget</h1>
+    <h2>Prototype cost</h2>
+    <p>When designing the prototype our goal was to keep the cost of our product at a minimum. However, certain limitations in our choice of components drove up the price considerably. For example, each Lego motor cost £32.40 because of the fact that it was specifically designed for educational purposes within the context of a Lego system. The RSPro struts and their connecting angle joints also drove up the price. In our final product there will be virtually no limitations on our building materials and so we can replace these expensive components with better and more cost-efficient alternatives. Below is a cost breakdown for our prototype.</p>
+    <h3>Prototype cost breakdown</h3>
+    <table>
+      <tr>
+        <th>Part</th>
+        <th>Quantity</th>
+        <th>Cost (Total) (£)</th>
+      </tr>
+      <tr>
+        <td>Logitech C270 Camera</td>
+        <td>1</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>2.4" HAT Primary Display for the Raspberry Pi (4dpi-24-HAT)</td>
+        <td>1</td>
+        <td>24.58</td>
+      </tr>
+      <tr>
+        <td>Raspberry Pi 3</td>
+        <td>1</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Arduino UNO</td>
+        <td>1</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>Power/Interface Board for Arduino</td>
+        <td>1</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Motor Board</td>
+        <td>1</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Encoder Board</td>
+        <td>1</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>EV3 Large Servo Motors</td>
+        <td>3</td>
+        <td>97.17</td>
+      </tr>
+      <tr>
+        <td>Angle joints for RSPro struts</td>
+        <td>14</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <td>RSPro struts</td>
+        <td>2</td>
+        <td>82</td>
+      </tr>
+      <tr>
+        <td>3D printed parts</td>
+        <td>356 g</td>
+        <td>27.8</td>
+      </tr>
+      <tr>
+        <td>Silicone part</td>
+        <td>47.8 ml</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Lego</td>
+        <td>1</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Clear plastic sheets (1mm thickness) (for lid) [<a href="#ref-3">3</a>]</td>
+        <td>3</td>
+        <td>27.86</td>
+      </tr>
+      <tr style="font-weight: bold;">
+        <td>Total</td>
+        <td></td>
+        <td>458.41</td>
+      </tr>
+    </table>
+    <h2>Final product cost</h2>
+    <p>The final design of our product will certainly have a lower production cost as we will have a greater range of cheap building blocks that we can work with. The Lego motors will be replaced with motors that are both cheaper and more powerful. Specifically, the cutting mechanism will be replaced with a high speed linear actuator to allow for increased cutting force. The moving board and holding mechanism motors will be replaced with stepper motors.</p>
+    <p>The construction of the skeleton can also be remodeled to a plastic-based structure, thereby reducing the size, weight and most importantly cost of our product. We envisage the frame of the final product to be 3D-printed with ABS plastic since it is slightly more durable than the PLA plastic used for our prototype. To calculate the cost of the frame we simply estimated the volume of the metal frame and used this metric to calculate the weight of the frame where it to be ABS plastic instead of Aluminum. However, when calculating the volume of the frame we used cross-sectional dimensions of 20mm x 20mm instead of the 40mm x 40mm dimensions of the actual metal struts. This reduction in our estimation was done as our final product's frame does not need to have as large cross-sectional dimensions as our prototype, which had material constraints. The weight turned out to be around 660g and the price was then calculated based on standard 3D printing costs for ABS (around 4 pence/gram) [<a href="#ref-5">5</a>].</p>
+    <p>The Lego constructions for the various mechanical parts should also be replaced with 3D printed components. It is unclear as to what the cost trade-off of replacing the Lego parts with 3D printed ones will be but it will certainly increase the structural integrity of the product.  The encoder, motor, power and Arduino board will most likely be combined into a single custom made PCB. We will also replace the resistive touch screen with a cheaper model to further drive down the price. This will significantly reduce the cost while also making it easier for us to work with and house the board.  Below is the cost breakdown for our final product.</p>
+    <h3>Final product cost breakdown</h3>
+    <table>
+      <tr>
+        <th>Part</th>
+        <th>Quantity</th>
+        <th>Cost (Total) (£)</th>
+      </tr>
+      <tr>
+        <td>Logitech C270 Camera</td>
+        <td>1</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>2.8inch TFT LCD 240x320 Screen, Resistive Touch Screen Monitor [<a href="#ref-6">6</a>]</td>
+        <td>1</td>
+        <td>12.99</td>
+      </tr>
+      <tr>
+        <td>Raspberry Pi 3</td>
+        <td>1</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Custom PCB</td>
+        <td>1</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>High Speed Linear Actuator [<a href="#ref-1">1</a>]</td>
+        <td>1</td>
+        <td>26.15</td>
+      </tr>
+      <tr>
+        <td>Stepper motors [<a href="#ref-2">2</a>]</td>
+        <td>2</td>
+        <td>15.26</td>
+      </tr>
+      <tr>
+        <td>3D printed parts</td>
+        <td>~1000 g</td>
+        <td>80</td>
+      </tr>
+      <tr>
+        <td>Silicone part</td>
+        <td>47.8 ml</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Clear plastic sheets (5mm thickness) (for lid) [<a href="#ref-4">4</a>]</td>
+        <td>3</td>
+        <td>9.26</td>
+      </tr>
+      <tr>
+        <td>3D-printed frame</td>
+        <td>~660g</td>
+        <td>33</td>
+      </tr>
+      <tr style="font-weight: bold;">
+        <td>Total</td>
+        <td></td>
+        <td>261.66</td>
+      </tr>
+    </table>
+    <p>It is clear that with a higher degree of freedom in our materials the price of the product significantly drops. Components such as the camera, Pi and Arduino still drive the price up but with mass production  we hope the production cost will fall even further. Mass production also allows for mold injections instead of 3D printed components which also lowers the price. Overall, we are optimistic that a mass produced version of our product will be of high quality while remaining very affordable.</p>
+    <h2>References</h2>
+    <ul style="list-style: none;">
+      <li>[<a id="ref-1">1</a>] <a href="https://www.ebay.co.uk/itm/12-24V-30mm-50mm-s-DC-High-Speed-Linear-Actuator-200N-750N-Mounting-Bracket/133282520914?hash=item1f0841df52:m:mU9gimee-j1qUBetJEXCEjw">https://www.ebay.co.uk/itm/12-24V-30mm-50mm-s-DC-High-Speed-Linear-Actuator-200N-750N-Mounting-Bracket/133282520914?hash=item1f0841df52:m:mU9gimee-j1qUBetJEXCEjw</a></li>
+      <li>[<a id="ref-2">2</a>] <a href="https://www.omc-stepperonline.com/nema-17-bipolar-1-8deg-26ncm-36-8oz-in-0-4a-12v-42x42x34mm-4-wires.html">https://www.omc-stepperonline.com/nema-17-bipolar-1-8deg-26ncm-36-8oz-in-0-4a-12v-42x42x34mm-4-wires.html</a></li>
+      <li>[<a id="ref-3">3</a>] <a href="https://uk.rs-online.com/web/li/solid-plastic-sheets/3346444/">https://uk.rs-online.com/web/li/solid-plastic-sheets/3346444/</a></li>
+      <li>[<a id="ref-4">4</a>] <a href="https://www.ebay.co.uk/itm/Clear-Perspex-Acrylic-Sheet-Panel-Laser-Cut-To-Size-Plastic-Extrude-XT-Material/191631904748?var=490695217997&amp;hash=item2c9e26cfec:m:mhfH2kY66qlzQlfPEIh_Zog">https://www.ebay.co.uk/itm/Clear-Perspex-Acrylic-Sheet-Panel-Laser-Cut-To-Size-Plastic-Extrude-XT-Material/191631904748?var=490695217997&amp;hash=item2c9e26cfec:m:mhfH2kY66qlzQlfPEIh_Zog</a></li>
+      <li>[<a id="ref-5">5</a>] <a href="https://www.simplify3d.com/support/materials-guide/properties-table/">https://www.simplify3d.com/support/materials-guide/properties-table/</a></li>
+      <li>[<a id="ref-6">6</a>] <a href="https://www.amazon.co.uk/GeeekPi-2-8inch-Resistive-controller-Raspberry/dp/B0832K8P2D/ref=sr_1_4?dchild=1&amp;keywords=resistive+touch+screen&amp;qid=1586369368&amp;sr=8-4">https://www.amazon.co.uk/GeeekPi-2-8inch-Resistive-controller-Raspberry/dp/B0832K8P2D/ref=sr_1_4?dchild=1&amp;keywords=resistive+touch+screen&amp;qid=1586369368&amp;sr=8-4</a></li>
+    </ul>
+  </article>
+</body>
+</html>
