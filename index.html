@@ -27,7 +27,7 @@
       #landing-overlay { font-size: 0.6em; }
     }
   </style>
-  <script>
+  <script type="text/javascript">
     var interesting_video = '<p style="text-align: center;"><iframe style="width: 64ch; height: 36ch;" src="https://www.youtube-nocookie.com/embed/AOTUFQN377U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>';
     function easter_egg() {
 	    document.getElementById("easter-egg").innerHTML = interesting_video;
@@ -88,8 +88,8 @@
       <img src="./img/logo.png" alt="SousChef" style="width: 50%; height: auto;" />
     </p>
     <div id="easter-egg">
-    <img src="./img/egg.png" alt="Easter Egg" onclick="easter_egg()" style="cursor: pointer; width: 20%; height: auto;"/>
-  </div>    
+      <img src="./img/egg.png" alt="Easter Egg" onclick="easter_egg()" style="cursor: pointer; width: 10%; height: auto;" />
+    </div>
 </article>
 </body>
 </html> 
