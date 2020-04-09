@@ -5,11 +5,16 @@
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
   <style type="text/css">
-    #landing-video {
+    #landing-img {
       display: block;
-      max-width: 100%;
+      width: 100%;
       height: 100vh;
       margin: auto;
+      background-color: black;
+      background-image: url('./img/poster.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
     #landing-overlay {
       display: table;
@@ -35,9 +40,7 @@
   </script>
 </head>
 <body>
-  <div style="background-color: black; width: 100%; height: 100vh;">
-    <video id="landing-video" poster="./img/poster.jpg"></video>
-  </div>
+  <div id="landing-img"></div>
   <div id="landing-overlay">
     <div style="display: table-cell; vertical-align: middle; font-size: 2em;">
       <span class="font-serif" style="display: inline-block; font-size: 2em; max-width: 80vw;">Introducing SousChef</span><br/>
